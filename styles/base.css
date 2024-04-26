@@ -18,9 +18,13 @@ span{
     font-size: 60px;
     background-color: rgb(22, 53, 94);
     color: white;
+    font-family: "Nunito Sans", sans-serif;
+
 }
 span img{
     grid-column: 2/3;
+    box-shadow: 5px 5px 30px black;
+
 }
 
 span h3{
@@ -61,10 +65,12 @@ main{
     column-gap: 20px;
     height: 200px;
     width: 80%;
-    
+
 }
 h1{
     grid-column: 1/3;
+    font-family: "Nunito Sans", sans-serif;
+
 }
 h2{
     background-color: skyblue;
@@ -72,6 +78,7 @@ h2{
 .card{
     border: 2px solid  rgb(22, 53, 94);
     border-radius: 9px;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .card ul{
