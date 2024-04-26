@@ -1,4 +1,4 @@
-@media screen and (min-width : 500px){
+@media screen and (min-width : 640px){
     * {
         margin: 0;
         padding: 0;
@@ -10,68 +10,86 @@
     
       
     span{
-      display:flex;
-      background-color :yellow;
-      padding:2rem;
-      
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        padding: 20px;
+        font-size: 30px;
+        column-gap: 5px;  
+        align-items: center;
+        font-size: 60px;
+        background-color: rgb(22, 53, 94);
+        color: white;
+        font-family: "Nunito Sans", sans-serif;
+    
     }
     span img{
-      box-shadow: 5px 5px 30px black;
-      height:9rem;
-      
+        grid-column: 2/3;
+        box-shadow: 5px 5px 30px black;
+        width: 150px;
     }
     
     span h3{
-      margin:2rem 1rem;
-      color:white;
-      font-size:2rem;
+        grid-column: 3/5;
     }
     nav{
-      display:flex;
-      justify-content:center;
-      background-color:black ;
+        background-color:black;
+        height: 50px;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+    
+    
     }
     nav ul{
-      display:flex;
-      flex-direction:column;
-      color:white;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+       
     }
-    nav ul a {
-      color:white;
-      padding:0.5rem;
+    nav ul a{
+        color: white;
+        height: 50px;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
     }
-    
     nav ul a:hover{
-        background-color: brown;   
+        background-color: brown;
+        
     }
     
     main{
-      display:flex;
-      flex-direction:column;
-      row-gap:2rem;
-    }
+        margin: 4%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 15px;
+        column-gap: 20px;
+        height: 200px;
+        width: 80%;
     
+    }
+    h1{
+        grid-column: 1/3;
+        font-family: "Nunito Sans", sans-serif;
+    
+    }
+    h2{
+        background-color: skyblue;
+    }
     .card{
-      border:2px solid rgb(22, 53, 94);
-      border-radius:0.5rem;
-      height:10rem;
-      
-    }
-    main h1{
-      font-size:1.5rem;
-    }
-    .card h2{
-      background-color:skyblue;
+        border: 2px solid  rgb(22, 53, 94);
+        border-radius: 9px;
+        box-shadow: 10px 10px 10px gray;
     }
     
-    
+    .card ul{
+        padding: 20px;
+    }
     footer{
-      margin-top:3rem;
-      background-color:  rgb(22, 53, 94);
-      color: white;
-      text-align: center;
-      height: 100%;
-      padding: 1rem;
-    }  
-   
+        background-color:  rgb(22, 53, 94);
+        color: white;
+        text-align: center;
+        height: 100%;
+        padding: 1rem;
+    }    
 }
