@@ -7,24 +7,30 @@
     margin: 2%;
  }
 
-  
-span{
-  display:flex;
-  background-color :rgb(22, 53, 94);
-  padding:2rem;
-  
-}
-span img{
+/*****************************************/
+
+header{
+    background-color:  rgb(22, 53, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    column-gap: 1rem;    
+}  
+
+img{
   box-shadow: 5px 5px 30px black;
   height:9rem;
   
 }
+span{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Mochiy Pop P One'}
 
-span h3{
-  margin:2rem 1rem;
-  color:white;
-  font-size:2rem;
-}
+
+
+/*********************************************/
 nav{
   display:flex;
   justify-content:center;
@@ -36,13 +42,17 @@ nav ul{
   color:white;
   width: 100%;
 }
-nav ul a {
+nav ul li  {
   color:white;
   padding:0.5rem;
   text-align: center;
+  width: 100%;
 }
+nav ul li a {
+    color: white;
 
-nav ul a:hover{
+}
+nav ul li:hover{
     background-color: brown;   
 }
 
