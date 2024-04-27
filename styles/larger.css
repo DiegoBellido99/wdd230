@@ -73,6 +73,7 @@
     }
     h2{
         background-color: skyblue;
+        font-family: 'Nunito Sans';
     }
     .card{
         border: 2px solid  rgb(22, 53, 94);
@@ -81,7 +82,7 @@
     }
     
     .card ul{
-        padding: 20px;
+    margin-left: 2rem;
     }
     footer{
         background-color:  rgb(22, 53, 94);
