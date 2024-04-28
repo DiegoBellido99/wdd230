@@ -8,15 +8,15 @@
   --heading-font: "Montserrat", sans-serif;
   --paragraph-font:"Lato", sans-serif;
 
-  --headline-color-on-white: #606c38;  
-  --headline-color-on-color: #d9d9d9; 
-  --paragraph-color-on-white: #396E94; 
-  --paragraph-color-on-color: #d9d9d9;  
-  --paragraph-background-color: #284b63  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #3c6e71;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #023047;  
+  --headline-color-on-color: #023047; 
+  --paragraph-color-on-white: #219ebc; 
+  --paragraph-color-on-color: #023047;  
+  --paragraph-background-color: #8ecae6  ;
+  --nav-link-color: #023047;
+  --nav-background-color: #8ecae6;
+  --nav-hover-link-color: #023047;
+  --nav-hover-background-color: #ffb703;
 }
 
 
@@ -30,7 +30,7 @@ body {
   text-align: center;
   
 }
-img {
+.mobile {
   display: block;
   margin: 0 auto;
   max-width: 300px;
@@ -97,14 +97,14 @@ nav {
   font-size: 1.2em;
 }
 nav  {
-  list-style-type: none;
   display: flex;
+  width: 100%;
 }
 nav a {
   padding:1em;
-  min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  width: 100%;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -113,46 +113,7 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-.sitemap {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
-}
-.sitemap > div {
-  text-align: center;
-}
-.sm-home {
-  grid-area: home;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
+main .Large{
+    width: 700px;
+    height: 300px;
 }
