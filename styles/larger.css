@@ -20,7 +20,7 @@
         background-color: rgb(22, 53, 94);
         color: white;
         font-family: "Nunito Sans", sans-serif;
-    
+
     }
     img{
         grid-column: 2/3;
@@ -34,27 +34,19 @@
     }
     nav{
         background-color:black;
-        height: 50px;
     }
-
-    nav ul{      
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        width: 100%;      
+    #menu{
+        display: none;
     }
-    nav ul li{
-        color: black;
-        height: 50px;
-        width: 100%;
-        padding: 15px;
-        text-align: center;
-    }
+    nav ul{
+    display: flex;
+    justify-content: space-around;
+   }
+   nav ul li{
+    display: block;
+    width: 100%;
     
-    nav ul a:hover{
-        background-color: brown;
-        
-    }
-    
+   }
     main{
         margin: 4%;
         display: grid;
