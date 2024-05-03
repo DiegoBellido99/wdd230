@@ -65,9 +65,10 @@
         grid-template-rows: 50px 1fr;
         row-gap: 15px;
         column-gap: 20px;
-        height: 300px;
-        width: 80%;
+        height: 100%px;
+        width: 100%;
         padding: 1rem;
+        margin: 0px;
     
     }
     h1{
@@ -96,5 +97,6 @@
         text-align: center;
         height: 100%;
         padding: 1rem;
+        margin-top: 0px;
     }    
 }

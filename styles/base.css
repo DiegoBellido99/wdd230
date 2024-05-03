@@ -32,36 +32,6 @@ span{
     font-family: 'Mochiy Pop P One';
 }
 
-
-
-/*********************************************/
-/*
-nav{
-  display:flex;
-  justify-content:center;
-  background-color:black ;
-}
-nav ul{
-  display:flex;
-  flex-direction:column;
-  color:white;
-  width: 100%;
-}
-nav ul li  {
-  color:white;
-  padding:0.5rem;
-  text-align: center;
-  width: 100%;
-}
-nav ul li a {
-    color: white;
-
-}
-nav ul li:hover{
-    background-color: brown;   
-}
-*/
-
 #menu{
   display: block;
   text-align: center;
@@ -142,4 +112,5 @@ footer{
   text-align: center;
   height: 100%;
   padding: 1rem;
+  margin-top: 1px;
 }  
