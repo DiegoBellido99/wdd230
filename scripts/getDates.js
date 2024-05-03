@@ -54,3 +54,20 @@ button.addEventListener("click",()=>{
     button.classList.toggle("show");
 })
 
+const mode = document.querySelector("#mode");
+const main= document.querySelector("main");
+
+mode.addEventListener("click",()=>{
+    if(mode.textContent.includes("🕶️")){
+        main.style.background = "#000";
+        main.style.color="#fff";
+        mode.textContent="🔆";
+    }
+    else{
+        main.style.background = "#eee";
+        main.style.color="#000";
+        mode.textContent="🕶️";
+
+    }
+
+})
