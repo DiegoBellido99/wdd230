@@ -45,3 +45,12 @@ if (seconds < 10){
 }
 
 lastModified.innerHTML = `Last Modification : ${day}/${month}/${year} - ${hours}:${minutes}:${seconds}`;
+
+const ul = document.querySelector("#list");
+const button=document.querySelector("#menu");
+
+button.addEventListener("click",()=>{
+    ul.classList.toggle("show");
+    button.classList.toggle("show");
+})
+
