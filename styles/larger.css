@@ -28,7 +28,8 @@
         font-size: 2rem;
         top: 0;
         text-align: right;
-        text-decoration: none;    
+        text-decoration: none; 
+        background-color:skyblue;   
     }
 
     img{
