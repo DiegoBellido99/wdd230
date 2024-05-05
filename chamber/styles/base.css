@@ -124,6 +124,7 @@
         border-radius: 7px;
         text-decoration: none;
         font-family: 'Lato';
+        color: #023047;
     }
     #weather{
         background-color: #ffb703;
@@ -144,6 +145,7 @@
         text-align: center;
         background-color: #219ebc;
         font-family:'Open Sans','Montserrat';
+        color: #ffb703;
     }
 
 
