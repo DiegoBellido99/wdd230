@@ -54,8 +54,6 @@
         height: 400px;
         justify-items: center;
         margin-bottom: 3rem;
-        font-family: 'Montserrat';
-
         
     }
     
@@ -74,8 +72,10 @@
         grid-column: 2/3;
         grid-row: 1/2;
         z-index: 2;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color:#ffb703;
+        text-align: center;
+        font-family: 'Open Sans';
 
     }
     #icon-img{
@@ -98,11 +98,10 @@
         width: 50%;
         top: 2.5rem;
         text-align: center;
-        font-size: 2rem;
+        font-size:1.5em;
         text-decoration: none;
         align-content: center;
-        font-family: "Lato";
-
+        font-family: 'Open Sans';
     }
     
     /************Seccion de eventos****************/
@@ -155,6 +154,9 @@
     .article h3{
         font-family: 'Montserrat';
     }
+    .img-article{
+        width: 15rem;
+    }
 
     .article p{
         font-family: 'lato','Open Sans';
@@ -180,9 +182,12 @@
         background-color: #219ebc;
         display: flex;
         flex-direction: column;
-        text-align: center;
-        
-        
+        text-align: center;   
+        font-family: 'Montserrat';   
+    }
+    
+    footer p {
+        font-family: 'Lato';
     }
 
 }
