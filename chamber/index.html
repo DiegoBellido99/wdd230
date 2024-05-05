@@ -17,6 +17,7 @@
     <meta property="og:type" content="website" >
     <meta property="og:image" content="https://diegobellido99.github.io/wdd230/principal.jpg"  >
     <meta property="og:url" content="https://diegobellido99.github.io/wdd230/chamber/index.html" >
+    <meta property="og:description" content="Here you will read about Lima Chamber website" >
 
 </head>
 <body>
@@ -25,13 +26,13 @@
         <span>Lima Chamber of Commerce</span>               
     </header>
     <main id="content">
-        
+        <a id="button" href="#"></a>
         <nav id="menu">
-            <ul>
+            <ul id="list">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
             </ul>
         </nav>
         <div id="presentation">
@@ -45,8 +46,9 @@
 
         <article id="event">
             <img src="images/speaker.jpg" alt="Imagen de eventos">
-            <h3>discurso</h3>
-            <p>Informacion about the event </p>
+            <h3>Future Business Summit: Exploring Digital Opportunities</h3>
+            <p>Date: June 15, 2024 <br>
+              Time: 9:00 AM - 5:00 PM</p>
         </article>
         
         <div id="advertisements" >
@@ -55,28 +57,31 @@
                 <h3>New Online Training Program for Entrepreneurs: Digital Impulse 2024 </h3>
                 <img class="img-article" src="images/economy.jpg" alt="men looking at his tablet">
                 <p> The Lima Chamber of Commerce is pleased to announce the launch of "Impulso Digital 2024", an innovative online training program designed to boost the growth and development of local entrepreneurs.</p>
+                <a href="#" class="know">Click to know more</a>
             </article>
 
             <article class="article">
                 <h3>Strategic Alliance: Lima Chamber of Commerce and Local Universities to Promote Business Innovation</h3>
                 <img class="img-article" src="images/hands.jpg" alt="handshake">
                 <p>This unique collaboration will facilitate the creation of joint research programs, entrepreneurship projects and training opportunities for students and professionals.</p>
+                <a href="#" class="know">Click to know more</a>
             </article>
 
             <aside id="weather">
-                <h4>El clima</h4>
-                <div>
-
-                </div>
+                <h4>Weather</h4>
+                <p>Lima</p>
+                <p class="temperature" >20°C</p>
+                <p>Humidity : 70%</p>
+                <img id="temperature" src="images/cloudy.jpg" alt="">
+                
             </aside>
         </div>
     </main>
 
     <footer>
-        <h5>Diego Miguel Bellido -Chamber- WDD-230 </h5>
-        
-        <p id="Modification">Last modification</p>
+        <h5 id="date"> </h5>
+        <p id="modification"></p>
     </footer>
-    
+    <script src="scripts/script.js" ></script>
 </body>
 </html>

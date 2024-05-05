@@ -1,0 +1,159 @@
+@media only screen and (max-width: 767px) {
+    header{
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: end;
+        background-color: #023047;
+        color: #ffb703;
+        font-family: 'Montserrat';
+        padding: 1rem;
+    }
+    header img{
+        width: 5rem;
+    }
+    
+    #button{
+        display: block;
+        color:#219ebc ;
+        background-color:#ffb703;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2rem;
+        width: 100%;
+    }
+    #button::before{
+        content: "≡";
+    }
+    nav{
+        background-color: #023047;
+    }
+
+    nav ul{
+        text-align: center;
+        list-style: none;
+        padding: 0;   
+        margin: 0;   
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    #list li a{
+        display: block;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: #ffb703;
+        font-family: 'Montserrat';
+    }
+    #list li a:hover{
+        background-color:#219ebc;
+    }
+
+    .show li{
+        display: block;
+    }
+
+    #button.show::before{
+        content: "X";
+    }
+    #presentation{
+        display: grid;
+        grid-template-rows: 1fr .5fr .5fr .5fr;
+        text-align: center;
+    }
+    #hero-img{
+        grid-row: 1/2;
+        width: 100%;
+    }
+    #icon-img{
+        justify-self: center;
+    }
+
+    #presentation h1{
+        grid-row: 3/4;
+        margin: 0;
+        font-family:'Montserrat' ;
+        color: #023047;
+    }
+    #presentation a{
+        background-color: #ffb703;
+        color: #023047;
+        font-size: 2rem;
+        margin: 3rem;
+        border-radius: 7px;
+        text-decoration: none;
+        font-family: 'Lato';
+        border: 2px solid #023047 ;
+    }
+    #event{
+        text-align: center;
+        background-color: #ffb703;
+        color: #023047;
+        padding: auto;
+        font-family: 'Montserrat';
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 7px;
+    }
+    #event img{
+        width: 90%;
+    }
+
+
+    #advertisements{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .article{
+        background-color: #023047;
+        color: #ffb703;
+        margin: 1rem;
+        border-radius: 7px;       
+    }
+
+    .know{
+        background-color: #ffb703;
+        padding: .5rem;
+        border-radius: 7px;
+        text-decoration: none;
+        font-family: 'Lato';
+    }
+    #weather{
+        background-color: #ffb703;
+        font-size: 2rem;
+        font-family: 'Montserrat';
+
+    }
+    .temperature{
+        font-size: 5rem;
+    }
+    #weather img{
+        width: 20rem;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #219ebc;
+        font-family:'Open Sans','Montserrat';
+    }
+
+
+
+
+
+
+
+
+     
+
+
+}
