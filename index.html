@@ -21,7 +21,7 @@
 <body>
     <header>
         <a href="#" id="mode" >🕶️</a>
-        <img src="images/profile.jpg" alt="profile Diego Bellido">
+        <img src="images/profile.webp" alt="profile Diego Bellido"   >
         <span>Diego Bellido</span>
         
 
@@ -35,23 +35,45 @@
             <li><a href="">Form</a></li>
         </ul>
     </nav>
+    
     <main>
-        <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card"  >
-            <h2 class="title" >Learning Activities</h2>
-            <ul>
-                <li>Week 01 :<a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media query</a> | <a href="https://codepen.io/DiegoBellido99/pen/rNbRJZO">JS Pen</a></li>
-                <li>Week 02 :<a href="week02/design.html">Web Design Principles</a> | <a href="https://codepen.io/DiegoBellido99/pen/WNWBmpL">Responsive hamburguer</a> | <a href="week02/bom.html">JavaScript: DOM Manipulation</a></li>
-                <li>Week 03 :<a href="week03/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Loading Activity</a> | <a href="week03/responsive-images.html">Reponsive images</a></li>
-                <li>Week 04 :</li>
-                <li>Week 05 :</li>
-                <li>Week 06 :</li>
-            </ul>
-        </section>
-        <section class="card" >
-            <h2 class="title">Information</h2>          
-        </section>
+        <div id="hero">
+            <picture>
+                <source srcset="images/hero-small-temple.webp" media="(max-width:400px)" >
+                <source srcset="images/hero-large-temple.webp" media="(max-width:900px)" >
+                <img src="images/trujillo-temple.webp" alt="trujillo-temple">
+            </picture>
+            <div class="herolabel">
+		    	<p>Trujillo-Peru temple</p>
+		    </div>
+        </div>
+        
+        <div id="content" >   
+            <h1>WDD 230: Web Frontend Development</h1>
+            <section class="card"  >
+                <h2 class="title" >Learning Activities</h2>
+                <ul>
+                    <li>Week 01 :<a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media query</a> | <a href="https://codepen.io/DiegoBellido99/pen/rNbRJZO">JS Pen</a></li>
+                    <li>Week 02 :<a href="week02/design.html">Web Design Principles</a> | <a href="https://codepen.io/DiegoBellido99/pen/WNWBmpL">Responsive hamburguer</a> | <a href="week02/bom.html">JavaScript: DOM Manipulation</a></li>
+                    <li>Week 03 :<a href="week03/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Loading Activity</a> | <a href="week03/responsive-images.html">Reponsive images</a></li>
+                    <li>Week 04 :</li>
+                    <li>Week 05 :</li>
+                    <li>Week 06 :</li>
+                </ul>
+            </section>
+            <section class="card" >
+                <h2 class="title">Information</h2>
+                <STRong>Weather</STRong>
+                <p>20° C</p>
+                <P><strong>Humidity</strong> 80%</P>  
+                <p id="visit" ></p>        
+            </section>
+        </div>  
     </main>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62457.70470827235!2d-77.07271219985138!3d-11.932446624702463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d06992e815e3%3A0x18573d7c2751ddb!2sComas!5e0!3m2!1ses-419!2spe!4v1715313666011!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
 
     <footer>
         <p></p>

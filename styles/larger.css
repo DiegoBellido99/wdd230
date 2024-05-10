@@ -59,39 +59,28 @@
     width: 100%;
     
    }
-    main{
-        margin: 4%;
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 50px 1fr;
-        row-gap: 15px;
-        column-gap: 20px;
-        height: 100%px;
-        width: 100%;
-        padding: 1rem;
-        margin: 0px;
-    
-    }
-    h1{
-        grid-column: 1/3;
-        font-family: "Nunito Sans", sans-serif;
-    
-    }
-    h2{
-        background-color: #87ceeb;
-        font-family: 'Nunito Sans';
-    }
-    .card{
-        border: 2px solid  rgb(22, 53, 94);
-        border-radius: 9px;
-        box-shadow: 10px 10px 10px gray;
-        bottom: 3rem;
-    }
-    
-    .card ul{
-    margin-left: 2rem;
-    }
 
+   #content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+   }
+
+   #content h1{
+    grid-column: 1/3;
+   }
+   .card ul{
+    padding: 1rem;
+   }
+
+   .card li{
+    list-style: none;
+   }
+   
+   .card li a{
+    text-decoration: none;
+   }
     footer{
         background-color:  rgb(22, 53, 94);
         color: white;
@@ -100,4 +89,48 @@
         padding: 1rem;
         margin-top: 0px;
     }    
+    #hero{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        margin: 10px auto;
+	    position: relative;
+	    border: 1px solid rgba(0,0,0,.1);
+        padding: 1rem;
+	    
+            
+    }
+    .hero picture{
+        width: 100%;
+        
+    }
+
+    picture img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        
+    }
+    .herolabel {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background: radial-gradient(#fff, #4D5B97);
+        border: 1px solid rgba(0,0,0,.75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+        
+        /* Buenas */
+    }
+    
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+        font-family:"Great Vibes", serif;
+    }
+    iframe{
+        width: 100%;
+    }
 }

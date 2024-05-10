@@ -71,3 +71,19 @@ mode.addEventListener("click",()=>{
     }
 
 })
+
+
+const visit = document.querySelector("#visit");
+
+let numberVisits = Number(window.localStorage.getItem("numVisits-ls"))|| 0;
+
+if (numberVisits!==0){
+    visit.textContent=`Visit Count ${numberVisits}`;
+}
+else{
+    visit.textContent=`This is your first visit , Welcome!!`;
+}
+
+numberVisits++
+
+localStorage.setItem('numVisits-ls',numberVisits);
