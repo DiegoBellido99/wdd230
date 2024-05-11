@@ -148,6 +148,12 @@
         display: flex;
         flex-direction: column;
     }
+    #news{
+        width: auto;
+    }
+    iframe{
+        width: 100%;
+    }
     #galery{
         display: flex;
         flex-direction: column;
