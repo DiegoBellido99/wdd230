@@ -199,6 +199,20 @@
     margin-top: 3rem;
     width: 10em;
    }
+    /*-----------------section of discover----------*/
+    #information{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    #Content{
+        grid-column: 1/2;
+        height: 35rem;
+    }
+    
+
+
 
     /**********FOOTER************************/
 
@@ -210,10 +224,53 @@
         text-align: center;   
         font-family: 'Montserrat'; 
         height: 150px;
+        
+        
     }    
     #modification {
         font-family: 'Montserrat';
         color : #ffb703;
     }
 
-}
+    #information{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 1rem;
+        margin: 2rem 2rem;
+    }
+    #Content{
+        grid-column: 1/2;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 10rem;
+        width: auto;
+        font-family: 'lato';
+        font-size: 1.5rem;
+        
+    }
+    #Content h2{
+        font-family: 'Montserrat';
+        
+    }
+    .news{
+        border: 3px solid #ffb703;
+        border-radius: 7px;
+        padding: 1rem;
+        color: #ffb703;
+        background-color: #023047;
+    }
+    #galery{
+        grid-column: 2/3;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #galery picture{
+        width: 100%;
+    }
+
+    picture{
+        width: 100%;
+    }
+
+}   

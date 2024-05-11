@@ -99,6 +99,7 @@ nav ul li a:hover {
 
 .card ul li{
   list-style: none;
+  
 }
 main h1{
   font-size:1.5rem;
@@ -131,7 +132,6 @@ picture img{
 }
 .herolabel {
   position: absolute;
-  top: 15rem;
   left: 30px;
   background: radial-gradient(#fff, #4D5B97);
   border: 1px solid rgba(0,0,0,.75);
