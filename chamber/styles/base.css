@@ -142,14 +142,28 @@
     #information{
         display: flex;
         flex-direction: column;
+        background-color: white;
     }
 
     #Content{
         display: flex;
         flex-direction: column;
+        row-gap: 1rem;
+        font-family: 'lato';
+            
     }
-    #news{
+    .news{
         width: auto;
+        background-color: #023047;
+        border: 2px solid #ffb703;
+        border-radius: 7px;
+        margin:.5rem;
+        color: #ffb703;   
+        padding: .5rem;  
+    }
+    .news h2{
+        font-family: 'Montserrat';
+        text-align: center;
     }
     iframe{
         width: 100%;
@@ -160,9 +174,10 @@
     }
     #galery picture{
         width: 100%;
+        
     }
 
-    picture{
+    picture img{
         width: 100%;
     }
 
