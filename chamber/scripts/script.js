@@ -54,3 +54,33 @@ button.addEventListener("click",()=>{
     menu.classList.toggle("show");
     button.classList.toggle("show");
 })
+
+
+const visits= document.querySelector("#visits");
+
+let number=Number(window.localStorage.getItem("numVisits-ls"))||0;
+
+var lastVisit=localStorage.getItem("lastVisit");
+var date = new Date();
+
+var difference= date - new Date(lastVisit);
+var daysDifference = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+
+if(number!==0 && daysDifference ===0){
+    visits.innerHTML=`Back so soon! Awesome!!!! <br>  Number of visits : ${number}`;
+}
+else if(number!==0 && daysDifference>=1){
+    visits.textContent=`Number of visits : ${number}`
+}
+else{
+    visits.textContent=`Welcome! Let us know if you have any questions.`
+}
+
+number++
+
+localStorage.setItem("numVisits-ls",number);
+localStorage.setItem("lastVisit", new Date());
+
+
+
