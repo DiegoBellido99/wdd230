@@ -273,7 +273,7 @@
 
     picture img{
         width: 100%;
-        border-radius: 25px 200px;
+        
     }
     picture img:hover{
         box-shadow: 0 0 80px #333;
