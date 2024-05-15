@@ -1,0 +1,21 @@
+table ,th , td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+table thead tr th:first-child {
+    background-color: black;
+    color: white;
+}
+.tittle{
+    background-color: rgb(80, 78, 78);
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(190, 186, 186);
+}
+caption{
+    text-align: center;
+}
