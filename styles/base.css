@@ -153,3 +153,10 @@ picture img{
 iframe{
   width: 100%;
 }
+
+#record{
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  
+}
