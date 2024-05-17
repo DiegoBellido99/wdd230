@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/root.css">
+</head>
+<body>
+    <a id="menu" href="#"></a>
+    <nav>
+    	<ul class="navigation">
+    		<li><a href="#">Home</a></li>
+    		<li><a href="#">About Us</a></li>
+    		<li><a href="#">Products</a></li>
+    		<li><a href="#">Feedback</a></li>
+    		<li><a href="#">History</a></li>
+    		<li><a href="#">Contact</a></li>
+    	</ul>
+    </nav>
+	<div>Pon el cursor aqui 
+		<p>te amo mi amorcito lindo</p>
+	</div>
+    <table>
+		<tr>
+			<td>hola</td>
+			<th>hola</th>
+			<th>segundo</th>
+			<th>tercero</th>
+			<th>cuarto</th>
+		</tr>
+		<tr>
+			<th>1.00</th>
+			<td>1.1</td>
+			<td></td>
+		</tr>
+	</table>
+
+	<div style="background-color: aqua;">separacion</div>
+
+	<table>
+		<tr>
+			<th colspan="3" scope="col">encabezado</th>
+			<th scope="col">encabezado</th>
+			<th scope="col">encabezado</th>
+		</tr>
+		<tr>
+			<th >Haircut</th>
+			<td>Hairdresser</td>
+			<td>12/09</td>
+			<td>Great idea</td>
+			<td>30</td>
+		  </tr>
+	</table>
+
+	<input type="text" pattern="\S{6,}">
+	<input type="text" pattern="\S{6,}" disabled>
+	<input type="text" name="fechaNacimiento" value="01/01/1990" readonly>
+	<input type="file" name="archivos" multiple>
+
+	<form id="miFormulario" action="/submit" method="post">
+		<input type="text" name="nombre" id="nombre">
+	</form>
+	
+	<input type="submit" value="Enviar" form="miFormulario">
+	
+	<input type="text" name="numero de telefono" autocomplete="cc-number">
+
+	<div>
+		<span id="prueba" ></span>
+	</div>
+	<footer>
+		<span>hola</span>
+	</footer>
+
+
+<script src="script/prueba.js"></script>    
+</body>
+</html>
