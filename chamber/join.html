@@ -42,7 +42,7 @@
                         <label >First Name <input type="text" id="fname" name="first-name" required></label>
                         <label>Last Name <input type="text" id="lname" name="last-name" required></label>
                         <label>Title or Position <input type="text" id="title" name="ocupation" pattern="^[A-Za-z\s-]{7,}$"></label>
-                        <label>Email <input type="email" id="email" name="email" placeholder="anyname-123@gmail.com"></label>
+                        <label>Email <input type="email" id="email" name="email" placeholder="anyname-123@gmail.com" required></label>
                         <label>Number Phone <input type="tel" id="phone" name="number-phone" required></label>
                         <label>Business/Oganization's name <input type="text" id="business" name="business" required></label>
                     </fieldset>
@@ -52,7 +52,7 @@
                         <label><input type="radio" name="level"  value="Bronze">Bronze Membership</label>
                         <label><input type="radio" name="level"  value="Silver">Silver Membership</label>
                         <label><input type="radio" name="level"  value="Gold">Gold Membership</label>
-                        <label>business/organization's description <input type="text" id="description" name="description" ></label>
+                        <textarea name="description" id="description" rows="10" cols="43" placeholder="Enter the description of the business or organization here..."></textarea>
                         <input type="hidden" id="timestamp" name="timestamp">
 
                     </fieldset>

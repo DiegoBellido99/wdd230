@@ -371,5 +371,13 @@
     table tr{
         background-color: #023047;
     }
+
+    textarea{
+        width: 100%;
+        max-width: 400px;
+        margin-top: 1rem;
+        border-radius: 7px;
+        border: 1px solid;
+       }
     
 }   
