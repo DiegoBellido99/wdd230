@@ -213,7 +213,7 @@
    }
 
    #form legend{
-    color: #445ba9;
+    color:#023047;
     padding: 0.5rem;
    }
 
@@ -239,7 +239,7 @@
 
    #title-options{
     font-size: .9rem;
-    color: #445ba9;
+    color:#023047;
     font-family: 'Montserrat';
    }
 
@@ -278,11 +278,9 @@
         padding: 1rem;
     }
 
-    table tr:nth-child(even){
+    table tr{
         background-color: #023047;
     }
-    table tr:nth-child(odd){
-        background-color: #219ebc;
-    }
+    
 
 }
