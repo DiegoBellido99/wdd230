@@ -133,4 +133,14 @@
     iframe{
         width: 100%;
     }
+
+    #container-weather img{
+        width: 3rem;
+        height: 3rem;
+        box-shadow: none;
+    }
+
+    #container-weather p{
+        display: inline;
+    }
 }

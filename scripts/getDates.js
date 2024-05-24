@@ -91,3 +91,43 @@ numberVisits++
 localStorage.setItem('numVisits-ls',numberVisits);
 
 
+const weather= document.querySelector("#weather");
+
+const container=document.querySelector("#container-weather");
+
+const p =document.createElement("p");
+
+const url= "https://api.openweathermap.org/data/2.5/weather?lat=-11.91&lon=-77.04&units=imperial&appid=5f5ebe8f821ecc05261398d4caf43542";
+
+async function fetchApi(){
+    try{
+        const response = await fetch(url);
+        if(response.ok){
+            const data = await response.json();
+            console.log(data);
+            displayWeather(data);
+        }
+        else{
+            throw Error(await response.text())
+        }
+    }
+    catch(error){
+        console.log(error);
+    }
+       
+}
+
+fetchApi();
+
+function displayWeather(data){
+
+    const icon =`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+    
+    const img =document.createElement("img");
+    img.setAttribute("src",icon);
+    p.innerHTML=`${data.main.temp}°F - ${data.weather[0].description}`;
+   
+    container.appendChild(img);
+    container.appendChild(p);
+    
+}

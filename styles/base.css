@@ -160,3 +160,22 @@ iframe{
   padding: 1rem;
   
 }
+
+#container-weather{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+
+#container-weather img{
+  width: 2rem;
+  height: 2rem;
+  box-shadow: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#container-weather p{
+  display: inline;
+  font-size: 1.5rem;
+}

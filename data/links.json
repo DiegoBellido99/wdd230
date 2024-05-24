@@ -1,0 +1,98 @@
+{
+    "weeks":[
+        {
+            "week":"Week 1",
+            "links":[
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"Layout"
+                },
+                {
+                    "url":"week01/media-query.html",
+                    "title":"Media query"
+                },
+                {
+                    "url":"https://codepen.io/DiegoBellido99/pen/rNbRJZO",
+                    "title":"JS Pen"
+                }
+            ]
+        },
+        {
+            "week":"Week 2",
+            "links":[
+                {
+                    "url":"week02/design.html",
+                    "title":"Web Design Principles"
+                },
+                {
+                    "url":"https://codepen.io/DiegoBellido99/pen/WNWBmpL",
+                    "title":"Responsive hamburguer"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"JavaScript: DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "week":"Week 3",
+            "links":[
+                {
+                    "url":"week03/landscape.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Loading Activity"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"Reponsive images"
+                }
+            ]
+        },
+        {
+            "week":"Week 4",
+            "links":[
+                {
+                    "url":"https://codepen.io/DiegoBellido99/pen/xxNGrzy",
+                    "title":"CSS Pseudo-Classes"
+                },
+                {
+                    "url":"images/activity.jpg",
+                    "title":"CSS Combinators"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"HTML Tables for Data Presentation"
+                },
+                {
+                    "url":"Form-start/index.html",
+                    "title":"Form activity"
+                }
+            ]
+        },
+        {
+            "week":"Week 5",
+            "links":[
+                {
+                    "url":"https://codepen.io/DiegoBellido99/pen/zYQqLPB",
+                    "title":"CSS Pseudo-elements"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"Json-Family"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"Prophets Activity"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather Activity"
+                }
+            ]
+        }
+
+    ]
+}
