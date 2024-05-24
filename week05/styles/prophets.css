@@ -1,0 +1,10 @@
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(231, 174, 98);
+}
