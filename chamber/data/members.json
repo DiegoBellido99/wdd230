@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Claro",
+            "address": "husares de junin 311 ,Surco",
+            "phone": "669-529",
+            "website": "claro_company.com",
+            "image": "https://diegobellido99.github.io/wdd230/chamber/images-directory/claro.webp",
+            "membership_level": "NP Membership",
+            "description": "Telephone company"
+        },
+        {
+            "name": "Movistar",
+            "address": "jr.Gambeta 120, Callao ",
+            "phone": "895-147",
+            "website": "movistar.telecomunication.com",
+            "image": "https://diegobellido99.github.io/wdd230/chamber/images-directory/movistar.webp",
+            "membership_level": "Bronze Membership",
+            "description": "Telephone company"
+        },
+        {
+            "name": "Codijisa Sac",
+            "address": "calle.Santa Ana 897 ,Carabayllo",
+            "phone": "852-741",
+            "website": "codijisa.comercializadora.com",
+            "image": "https://diegobellido99.github.io/wdd230/chamber/images-directory/codijisa.webp",
+            "membership_level": "NP Membership",
+            "description": "Company selling of food products"
+        },
+        {
+            "name": "Vega Distribucion",
+            "address": "Calle. Belaunde 900, Ventanilla.",
+            "phone": "741-555",
+            "website": "vega-distribucion.com",
+            "image": "https://diegobellido99.github.io/wdd230/chamber/images-directory/vega.webp",
+            "membership_level": "Silver Membership",
+            "description": "Company selling of food products"
+        },
+        {
+            "name": "Edelnor",
+            "address": "jr.San Felipe 789, La Molina",
+            "phone": "122-336",
+            "website": "edelnorempresa.com",
+            "image": "https://diegobellido99.github.io/wdd230/chamber/images-directory/edelnor.webp",
+            "membership_level": "Gold Membership",
+            "description": "Electric company"
+        },
+        {
+            "name": "Palmolive Sac",
+            "address": "jr.San Luis 125 , Miraflores",
+            "phone": "852-641",
+            "website": "palmoliveCompany-palmolive.com",
+            "image": "https://diegobellido99.github.io/wdd230/chamber/images-directory/palmolive.webp",
+            "membership_level": "Silver Membership",
+            "description": "Company selling of soap"
+        },
+        {
+            "name": "Gumisa",
+            "address": "jr.Alberto Gallardo 743, Cercado de Lima",
+            "phone": "840-700",
+            "website": "doñagumi-comercialgrupogumisa.com",
+            "image": "https://diegobellido99.github.io/wdd230/chamber/images-directory/gumisa.webp",
+            "membership_level": "Gold Membership",
+            "description": "Company selling of hygiene productos"
+        }
+    ]
+}
