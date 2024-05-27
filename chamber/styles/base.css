@@ -302,14 +302,28 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #219ebc;
+        background-color: #8ecae6;
         margin: 1rem;
         border-radius: 10px;
         border: 5px solid #023047;
+        font-family: 'Montserrat';
+        text-align: center;
+    }
+
+    .grid a{
+        text-decoration: underline;
     }
 
     .grid img{
-        width: 30%;
+        width: 35%;
+    }
+    #grid-button,#list-button{
+        font-size: 2rem;
+        margin: 1.2rem;
+        font-family: 'Montserrat';
+        border: 3px solid;
+        border-radius: 7px;
+        width: 6rem;
     }
 
 
@@ -324,6 +338,8 @@
     .list section{
         display: flex;
         flex-direction: column;
+        font-family: 'Montserrat';
+        padding: 5px;
     }
 
     .list section:nth-child(odd){

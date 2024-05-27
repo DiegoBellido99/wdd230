@@ -383,7 +383,16 @@
 
 
     /***********section of directory***********/
-   
+    #grid-button,#list-button{
+        font-size: 2rem;
+        margin-left: 30%;
+        margin-top: 2rem;
+        font-family: 'Montserrat';
+        border: 3px solid;
+        border-radius: 7px;
+        width: 7rem;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;  
@@ -391,7 +400,7 @@
     }
 
     .grid section{
-        background-color:#219ebc;
+        background-color:#8ecae6;
         text-align: center;
         font-size: 1rem;
         margin:1rem;
@@ -439,6 +448,7 @@
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
         align-items: baseline;
         text-align: center;
+        font-family: 'Montserrat';
     }
 
     .list section:nth-child(odd){
@@ -450,5 +460,11 @@
     }
     .list p,a{
         font-size:1rem;
+    }
+    .list a{
+        text-decoration: underline;
+    }
+    .list a:hover{
+        color: green;
     }
 }   
