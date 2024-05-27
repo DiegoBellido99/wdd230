@@ -289,6 +289,53 @@
     table tr{
         background-color: #023047;
     }
-    
 
+    /********grid style********/
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #219ebc;
+        margin: 1rem;
+        border-radius: 10px;
+        border: 5px solid #023047;
+    }
+
+    .grid img{
+        width: 30%;
+    }
+
+
+
+    .list img{
+        display: none;
+    }
+    .list{
+        margin: .50rem;
+    }
+
+    .list section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list section:nth-child(odd){
+        background-color:#8ecae6;
+    }
+    .list section:nth-child(even){
+        background-color: gainsboro;
+    }
+    .list section h1,
+    .list section h2,
+    .list section p{
+        margin: 2px;
+        font-size: 1rem;
+    }
 }

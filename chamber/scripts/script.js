@@ -7,6 +7,8 @@ const currentYear = currentDate.getFullYear();
 firstP.innerHTML =`@${currentYear} - Diego Bellido / Peru / WDD-230 Project`;
 
 
+
+
 const lastModified= document.querySelector("#modification");
 
 const change = document.lastModified;
@@ -71,16 +73,18 @@ if(number!==0 && daysDifference ===0){
     visits.innerHTML=`Back so soon! Awesome!!!! <br>  Number of visits : ${number}`;
 }
 else if(number!==0 && daysDifference>=1){
-    visits.textContent=`Number of visits : ${number}`
+    visits.textContent=`Number of visits :${number}`;
 }
 else{
-    visits.textContent=`Welcome! Let us know if you have any questions.`
+    visits.textContent=`Welcome! Let us know if you have any questions.`;
 }
 
 number++
 
 localStorage.setItem("numVisits-ls",number);
 localStorage.setItem("lastVisit", new Date());
+
+
 
 
 

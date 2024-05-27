@@ -380,5 +380,75 @@
         border-radius: 7px;
         border: 1px solid;
        }
-    
+
+
+    /***********section of directory***********/
+   
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        gap: 2rem;    
+    }
+
+    .grid section{
+        background-color:#219ebc;
+        text-align: center;
+        font-size: 1rem;
+        margin:1rem;
+        font-family: 'Montserrat';
+        border-radius: 10px;
+        border: 5px solid #023047;
+        color:#333;
+        
+    }
+    .grid img{
+        width: 15rem;
+        height: 10rem;
+    }
+    .grid p{
+        font-family: 'lato';
+    }
+
+    .grid a{
+        display: block;
+        text-decoration: underline;
+    }
+
+    .grid a:hover{
+         color:yellow;
+         font-size: 1.5rem;
+    }
+
+    /*******style for items in list **************/
+
+    .list section img{
+        display: none;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin: 3rem; 
+        font-family: 'Montserrat';     
+    }
+
+    .list section{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: baseline;
+        text-align: center;
+    }
+
+    .list section:nth-child(odd){
+        background-color: #8ecae6;
+    }
+
+    .list section:nth-child(even){
+        background-color:gainsboro;
+    }
+    .list p,a{
+        font-size:1rem;
+    }
 }   
