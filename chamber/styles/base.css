@@ -128,15 +128,18 @@
     }
     #weather{
         background-color: #ffb703;
-        font-size: 2rem;
+        font-size:0.75rem;
         font-family: 'Montserrat';
-
+        margin-bottom: 1rem;
+    }
+    #weather p{
+        font-size: 2rem;
     }
     .temperature{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     #weather img{
-        width: 20rem;
+        width: 8rem;
     }
 
     #information{

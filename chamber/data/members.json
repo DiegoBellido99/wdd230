@@ -19,7 +19,7 @@
             "description": "Telephone company"
         },
         {
-            "name": "Codijisa Sac",
+            "name": "Codijisa",
             "address": "calle.Santa Ana 897 ,Carabayllo",
             "phone": "852-741",
             "website": "codijisa.comercializadora.com",
@@ -28,7 +28,7 @@
             "description": "Company selling of food products"
         },
         {
-            "name": "Vega Distribucion",
+            "name": "Vega",
             "address": "Calle. Belaunde 900, Ventanilla.",
             "phone": "741-555",
             "website": "vega-distribucion.com",
@@ -46,7 +46,7 @@
             "description": "Electric company"
         },
         {
-            "name": "Palmolive Sac",
+            "name": "Palmolive",
             "address": "jr.San Luis 125 , Miraflores",
             "phone": "852-641",
             "website": "palmoliveCompany-palmolive.com",
