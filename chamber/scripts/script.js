@@ -141,7 +141,7 @@ getWeather();
 
 
 
-const urlForecast = "http://api.openweathermap.org/data/2.5/forecast?lat=-12.04&lon=-77.03&units=imperial&appid=5f5ebe8f821ecc05261398d4caf43542";
+const urlForecast = "https://api.openweathermap.org/data/2.5/forecast?lat=-12.04&lon=-77.03&units=imperial&appid=5f5ebe8f821ecc05261398d4caf43542";
 
 async function getForecast() {
     try {
