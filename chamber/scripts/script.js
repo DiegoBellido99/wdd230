@@ -84,6 +84,34 @@ number++
 localStorage.setItem("numVisits-ls",number);
 localStorage.setItem("lastVisit", new Date());
 */
+document.addEventListener("DOMContentLoaded", function () {
+    const visits = document.getElementById("visits");
+    const lastVisit = localStorage.getItem("lastVisit");
+    const numVisitsLS = localStorage.getItem("numVisits-ls");
+    let number = numVisitsLS ? parseInt(numVisitsLS) : 0;
+
+    let daysDifference = 0;
+    if (lastVisit) {
+        const lastVisitDate = new Date(lastVisit);
+        const today = new Date();
+        const timeDifference = today - lastVisitDate;
+        daysDifference = timeDifference / (1000 * 3600 * 24);
+    }
+
+    number++;
+
+    if (number !== 1 && daysDifference === 0) {
+        visits.innerHTML = `Back so soon! Awesome!!!! <br> Number of visits: ${number}`;
+    } else if (number !== 1 && daysDifference >= 1) {
+        visits.innerHTML = `Number of visits: ${number}`;
+    } else {
+        visits.textContent = 'Welcome! Let us know if you have any questions.';
+    }
+
+    localStorage.setItem('numVisits-ls', number);
+    localStorage.setItem('lastVisit', new Date().toISOString());
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     const eventDiv = document.getElementById("event");
     const today = new Date().getDay(); 
